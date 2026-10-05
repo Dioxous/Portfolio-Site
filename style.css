@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media only screen and (min-width:5px){
+@media only screen and (max-width:480px){
     body{
         margin: 0px;
         padding: 0px;
@@ -10,35 +10,12 @@
         width: 100%;
     }
 
-    /*header{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 25px;
-        padding-right: 25px;
-        background-color: black;
-        color: white
-    }*/
-
     header{
         padding: 20px;
         text-align: center;
         background-color: black;
         color: white;
     }
-
-    /*header h1{
-        float: left;
-        padding: 0px;
-        margin: 0px;
-        line-height: 0;
-    }*/
-
-    /*header nav{
-        float: right;
-        padding: 0px;
-        margin: 0px;
-        line-height: 0;
-    }*/
 
     header nav a{
         margin: 0 25px;
@@ -47,18 +24,18 @@
     }
 
     #projects{
-        width: 960px;
+        max-width: 480px;
+        width: 90%;
         margin: 0 auto;
         text-align: center;
     }
 
     .card{
         background-color: aqua;
-        float: left;
-        width: 400px;
-        margin: 20px;
-        padding: 20px;
+        margin: 10px;
+        padding: 10px;
     }
+}
     
 @media only screen and (min-width:481px) and (max-width:960px){
     body{
@@ -84,7 +61,43 @@
     }
 
     #projects{
-        width: 95%;
+        text-align: center;
+    }
+
+    .card{
+        background-color: aqua;
+        display: inline-block;
+        width: 40%;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width:960px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #wrapper{
+        width: 100%;
+    }
+
+    header{
+        padding: 20px;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    header nav a{
+        margin: 0 25px;
+        color: white;
+        text-decoration: none;
+    }
+
+    #projects{
+        width: 960px;
         margin: 0 auto;
         text-align: center;
     }
@@ -92,9 +105,8 @@
     .card{
         background-color: aqua;
         float: left;
-        width: 35%;
-        margin: 10px;
+        width: 400px;
+        margin: 20px;
         padding: 20px;
     }
-}
 }
