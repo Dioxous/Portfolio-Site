@@ -45,4 +45,18 @@
         color: white;
         text-decoration: none;
     }
+
+    #projects{
+        width: 920px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .card{
+        background-color: aqua;
+        float: left;
+        width: 380px;
+        margin: 20px;
+        padding: 20px;
+    }
 }
