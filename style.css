@@ -109,4 +109,19 @@
         margin: 20px;
         padding: 20px;
     }
+
+    #profile-image{
+        width: 320px;
+        background-color: red;
+    }
+
+    #about-me{
+        width: 320px;
+        background-color: green;
+    }
+
+    #profile-video{
+        width: 320px;
+        background-color: blue;
+    }
 }
