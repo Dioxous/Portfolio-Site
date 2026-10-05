@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media only screen and (min-width:5px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #wrapper{
+        width: 100%;
+    }
+
+    header h1{
+        float: left;
+        padding: 0px;
+        margin: 0px;
+        line-height: 0;
+    }
+
+    header nav{
+        float: right;
+        padding: 0px;
+        margin: 0px;
+        line-height: 0;
+    }
+
+    header nav a{
+        margin-right: 25px;
+    }
+
+    header{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: black;
+        color: white
+    }
+}
