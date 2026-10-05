@@ -10,30 +10,39 @@
         width: 100%;
     }
 
-    header h1{
-        float: left;
-        padding: 0px;
-        margin: 0px;
-        line-height: 0;
-    }
-
-    header nav{
-        float: right;
-        padding: 0px;
-        margin: 0px;
-        line-height: 0;
-    }
-
-    header nav a{
-        margin-right: 25px;
-    }
-
-    header{
+    /*header{
         padding-top: 50px;
         padding-bottom: 50px;
         padding-left: 25px;
         padding-right: 25px;
         background-color: black;
         color: white
+    }*/
+
+    header{
+        padding: 20px;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    /*header h1{
+        float: left;
+        padding: 0px;
+        margin: 0px;
+        line-height: 0;
+    }*/
+
+    /*header nav{
+        float: right;
+        padding: 0px;
+        margin: 0px;
+        line-height: 0;
+    }*/
+
+    header nav a{
+        margin: 0 25px;
+        color: white;
+        text-decoration: none;
     }
 }
