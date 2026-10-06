@@ -110,18 +110,33 @@
         padding: 20px;
     }
 
+    #about{
+        width: 960px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
     #profile-image{
-        width: 320px;
+        width: 280px;
+        height: 320px;
         background-color: red;
+        float: left;
+        margin: 0 20px;
     }
 
-    #about-me{
-        width: 320px;
+    #about-text{
+        width: 280px;
+        height: 320px;
         background-color: green;
+        float: left;
+        margin: 0 20px;
     }
 
     #profile-video{
-        width: 320px;
+        width: 280px;
+        height: 320px;
         background-color: blue;
+        float: left;
+        margin: 0 20px;
     }
 }
