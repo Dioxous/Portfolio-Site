@@ -139,4 +139,18 @@
         float: left;
         margin: 0 20px;
     }
+
+    #contact{
+        width: 480px;
+        margin: 0 auto;
+        background-color: yellow;
+    }
+
+    #contact h2{
+        text-align: center;
+    }
+    
+    #contact p{
+        text-align: center;
+    }
 }
