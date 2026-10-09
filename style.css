@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+/*Importing 'Inter' font form Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @media only screen and (max-width:480px){
@@ -44,30 +46,6 @@
         font-weight: bold;
     }
 
-    footer{
-        padding: 20px;
-        text-align: center;
-        background-color: #112140;
-        color: #F2F2F2;
-        border-top: 5px solid #254159;
-    }
-
-    #projects{
-        max-width: 480px;
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-        color: #F2F2F2;
-    }
-
-    .card{
-        background-color: #254159;
-        border: 3px solid #D9B18F;
-        border-radius: 5px;
-        margin: 15px;
-        padding: 10px;
-    }
-
     #about{
         width: 90%;
         margin: 0 auto;
@@ -102,6 +80,22 @@
         width: 90%;
     }
 
+    #projects{
+        max-width: 480px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        color: #F2F2F2;
+    }
+
+    .card{
+        background-color: #254159;
+        border: 3px solid #D9B18F;
+        border-radius: 5px;
+        margin: 15px;
+        padding: 10px;
+    }
+
     #contact{
         width: 50%;
         margin: 0 auto;
@@ -117,20 +111,7 @@
         text-align: center;
     }
 
-    input[type="submit"]{
-        padding: 10px 20px;
-        border-radius: 5px;
-        color: #112140;
-        background-color: #D9B18F;
-        font-family: "Inter", sans-serif;
-        border: 0px;
-        font-size: 16px;
-        font-weight: bold;
-    }
-    input[type="submit"]:hover{
-        background-color: #a67f5d;
-    }
-
+    /*Used input[type="text"] to select all text inputs form the form, except textarea*/
     input[type=text], textarea{
         border-radius: 5px;
         padding: 5px;
@@ -141,6 +122,30 @@
         color: #F2F2F2;
         font-family: "Inter", sans-serif;
         width: 95%;
+    }
+
+    /*Used input[type="submit"] to select submit button*/
+    input[type="submit"]{
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: #112140;
+        background-color: #D9B18F;
+        font-family: "Inter", sans-serif;
+        border: 0px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    input[type="submit"]:hover{
+        background-color: #a67f5d;
+    }
+
+    footer{
+        padding: 20px;
+        text-align: center;
+        background-color: #112140;
+        color: #F2F2F2;
+        border-top: 5px solid #254159;
     }
 }
     
@@ -186,29 +191,6 @@
         font-weight: bold;
     }
 
-    footer{
-        padding: 20px;
-        text-align: center;
-        background-color: #112140;
-        color: #F2F2F2;
-        border-top: 5px solid #254159;
-    }
-
-    #projects{
-        text-align: center;
-        color: #F2F2F2;
-    }
-
-    .card{
-        background-color: #254159;
-        border: 3px solid #D9B18F;
-        border-radius: 5px;
-        display: inline-block;
-        width: 40%;
-        margin: 10px;
-        padding: 10px;
-    }
-
     #about{
         width: 90%;
         margin: 0 auto;
@@ -242,7 +224,23 @@
         border-radius: 5px;
     }
 
-     #contact{
+    #projects{
+        text-align: center;
+        color: #F2F2F2;
+    }
+
+    .card{
+        background-color: #254159;
+        border: 3px solid #D9B18F;
+        border-radius: 5px;
+        /*Used display: inline-block to center the cards in the div*/
+        display: inline-block;
+        width: 40%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #contact{
         width: 50%;
         margin: 0 auto;
         color: #F2F2F2;
@@ -257,20 +255,6 @@
         text-align: center;
     }
 
-    input[type="submit"]{
-        padding: 10px 20px;
-        border-radius: 5px;
-        color: #112140;
-        background-color: #D9B18F;
-        font-family: "Inter", sans-serif;
-        border: 0px;
-        font-size: 16px;
-        font-weight: bold;
-    }
-    input[type="submit"]:hover{
-        background-color: #a67f5d;
-    }
-
     input[type=text], textarea{
         border-radius: 5px;
         padding: 5px;
@@ -281,6 +265,29 @@
         color: #F2F2F2;
         font-family: "Inter", sans-serif;
         width: 95%
+    }
+
+    input[type="submit"]{
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: #112140;
+        background-color: #D9B18F;
+        font-family: "Inter", sans-serif;
+        border: 0px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    input[type="submit"]:hover{
+        background-color: #a67f5d;
+    }
+
+    footer{
+        padding: 20px;
+        text-align: center;
+        background-color: #112140;
+        color: #F2F2F2;
+        border-top: 5px solid #254159;
     }
 }
 
@@ -326,32 +333,6 @@
         font-weight: bold;
     }
 
-    footer{
-        padding: 20px;
-        text-align: center;
-        background-color: #112140;
-        color: #F2F2F2;
-        border-top: 5px solid #254159;
-    }
-
-    #projects{
-        width: 960px;
-        margin: 0 auto;
-        text-align: center;
-        color: #F2F2F2;
-        clear: both;
-    }
-
-    .card{
-        background-color: #254159;
-        border: 3px solid #D9B18F;
-        border-radius: 5px;
-        float: left;
-        width: 394px;
-        margin: 20px;
-        padding: 20px;
-    }
-
     #about{
         width: 960px;
         margin: 0 auto;
@@ -395,6 +376,25 @@
         border-radius: 5px;
     }
 
+    #projects{
+        width: 960px;
+        height: 530px;
+        margin: 0 auto;
+        text-align: center;
+        color: #F2F2F2;
+        clear: both;
+    }
+
+    .card{
+        background-color: #254159;
+        border: 3px solid #D9B18F;
+        border-radius: 5px;
+        float: left;
+        width: 394px;
+        margin: 20px;
+        padding: 20px;
+    }
+
     #contact{
         width: 480px;
         margin: 0 auto;
@@ -408,6 +408,17 @@
     
     #contact p{
         text-align: center;
+    }
+
+    input[type=text], textarea{
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        background-color: #254159;
+        border: 3px solid #D9B18F;
+        color: #F2F2F2;
+        font-family: "Inter", sans-serif;
     }
 
     input[type="submit"]{
@@ -424,14 +435,11 @@
         background-color: #a67f5d;
     }
 
-    input[type=text], textarea{
-        border-radius: 5px;
-        padding: 5px;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        background-color: #254159;
-        border: 3px solid #D9B18F;
+    footer{
+        padding: 20px;
+        text-align: center;
+        background-color: #112140;
         color: #F2F2F2;
-        font-family: "Inter", sans-serif;
+        border-top: 5px solid #254159;
     }
 }
