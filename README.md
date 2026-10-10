@@ -18,7 +18,7 @@ This colour scheme was used as it gives the site a modern look while looking sim
 
 Sources
 
-https\://www\.geeksforgeeks.org/css/how-to-select-text-input-fields-using-css-selector/](https://www.geeksforgeeks.org/css/how-to-select-text-input-fields-using-css-selector/)
+[https\://www\.geeksforgeeks.org/css/how-to-select-text-input-fields-using-css-selector/](https://www.geeksforgeeks.org/css/how-to-select-text-input-fields-using-css-selector/)
 
 This source was used to learn how to select specific input types within forms.
 
