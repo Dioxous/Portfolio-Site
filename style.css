@@ -34,6 +34,10 @@
         color: #D9B18F
     }
 
+    #home-wrapper{
+        background: linear-gradient(#112140, #a67f5d);
+    }
+
     #welcome-text{
         width: 65%;
         margin: 0 auto;
@@ -60,7 +64,7 @@
     #profile-image img{
         border-radius: 50%;
         border: 3px solid #D9B18F;
-        background-color: #254159;
+        background: linear-gradient(45deg, #D9B18F, #254159);
         width: 150px;
     }
 
@@ -179,6 +183,10 @@
         color: #D9B18F
     }
 
+    #home-wrapper{
+        background: linear-gradient(#112140, #a67f5d);
+    }
+
     #welcome-text{
         width: 65%;
         margin: 0 auto;
@@ -205,7 +213,7 @@
     #profile-image img{
         border-radius: 50%;
         border: 3px solid #D9B18F;
-        background-color: #254159;
+        background: linear-gradient(45deg, #D9B18F, #254159);
         width: 150px;
     }
 
@@ -321,6 +329,10 @@
         color: #D9B18F
     }
 
+    #home-wrapper{
+        background: linear-gradient(#112140, #a67f5d);
+    }
+
     #welcome-text{
         width: 600px;
         margin: 0 auto;
@@ -351,7 +363,7 @@
     #profile-image img{
         border-radius: 50%;
         border: 3px solid #D9B18F;
-        background-color: #254159;
+        background: linear-gradient(45deg, #D9B18F, #254159);
         width: 150px;
     }
 
